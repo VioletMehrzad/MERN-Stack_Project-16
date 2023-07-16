@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* _reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+[class="container"] {
+    max-width: 334px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* _components */
+
+[class="contact-card"] {
+    width: 33.4rem;
+    border-radius: 1.6rem;
+    background-color: white;
+    padding: 1.6rem;
+    margin-top: 5rem;
+}
+
+h3:only-of-type {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+[class="contacts"] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+[class="contact-info"] {
+    padding: 0.4rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+[class="contact-info"]:nth-child(even) {
+    background-color: #dee8eb;
+    border-radius: 0.8rem;
+}
+
+[class="contact-info"] img {
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+[class="contact-info"] img:nth-child(odd) {
+    border: 2px solid #E1E9F1;
+}
+
+h4:first-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 0.4rem;
+}
+
